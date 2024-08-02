@@ -1,0 +1,40 @@
+
+#Offers {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+.offers-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.offer {
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.offer img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.offer-details {
+    padding: 20px;
+}
+
+.offer h2 {
+    color: #333;
+}
+
+.offer p {
+    color: #666;
+}
+
+/* Add additional styling as needed */
